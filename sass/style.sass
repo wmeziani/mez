@@ -1,0 +1,58 @@
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
+
+$color: rgb(21,21,255)
+
+
+.btn
+    background-color: $color
+    text-align: center
+    margin: 50px
+    font-size: 100px
+    text-decoration: none
+
+.insta
+    color: red
+    margin: 100px
+    font-size: 150px
+    cursor: wait
+    transition: 2s
+    text-align: center
+    &:hover
+        color: blue
+        transform: scale(1.3) 
+    @media (max-width: 600px) and (min-width: 300px)
+        font-size: 90px
+        color: pink
+    
+.zoom1
+    text-align: center
+    color: pink
+    cursor: wait
+    transition: 1s
+    &:hover
+        color: red
+        transform: scale(0.5) translate(-100%, -100%)
+
+.zoom2
+    width: 100px
+    padding: 50px 0
+    line-height: 0
+    margin: 60px auto
+    background: pink
+    color: white
+    border-radius: 50px
+    cursor: wait
+    text-align: center
+    transition: 1s
+    &:hover
+        background-color: salmon
+        transform: rotatex(360deg)
+        
+.turn
+    color: pink
+    text-align: center
+    cursor: wait
+    transition: 1s
+    &:hover 
+        color: salmon
+        transform: scale(0.5) rotate(360deg)
